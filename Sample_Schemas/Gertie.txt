@@ -1,0 +1,27 @@
+
+
+generateL<-function(){
+
+#Set up typical Leslie matrix for Examinus Finalis:
+
+coreL<-matrix(c(
+	 0,  0,  12,    8,
+	.2,  0,   0,    0,
+	 0, .3,   0,    0,
+	 0,  0, .45,   .7),
+byrow=T, nrow=4)
+
+#Set up a matrix of noise to super-impose on top of coreL.  
+#Initially all zero, 
+	noiseMat<-matrix(0, nrow=4, ncol=4)
+#but modify certain specific elements to introduce randomness:
+	noiseMat[2, 1]<-runif(1, .05, .12)
+	noiseMat[3, 2]<-runif(1, .05, .12)
+	noiseMat[4, 3]<-runif(1, -.3, -.2)
+	noiseMat[4, 4]<-runif(1, -.5, -.35)
+	noiseMat[1,3]<-runif(1, -5, -3)
+	noiseMat[1,4]<-runif(1, -5, -3)
+
+#return the sum:
+	return(coreL+noiseMat)
+}
