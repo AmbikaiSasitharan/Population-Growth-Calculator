@@ -2,18 +2,12 @@
  This simple script of R uses statistical analysis to produce three interoperable graphs that estimates a population's growth trend given the population's current statistics such as its initial population, its Leslie matrix, and its age group probabilities.
 
 The three graphs that will be produced will look like the following: 
-i) 100 simulations depicting the potential change in population density over 100 years based off of the given populations information superimposed on top of one another, to give a general depiction of what the growth trend may be: 
 
-<img width="268" alt="100_Growth_Simulation_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/1aae5d41-c453-4880-b716-0a372fe37826"> <img width="268" alt="Extinction_Proability_Change_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/c050c6fa-7aa5-43a6-b840-d57b2c063339"> <img width="268" alt="10_by_10_All_Plots_In_One_Grid" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/b8beb06d-e594-44f0-9c42-c39dedd2284f"> 
+(i)<img width="230" alt="100_Growth_Simulation_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/1aae5d41-c453-4880-b716-0a372fe37826"> (ii)<img width="230" alt="Extinction_Proability_Change_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/c050c6fa-7aa5-43a6-b840-d57b2c063339"> (iii)<img width="230" alt="10_by_10_All_Plots_In_One_Grid" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/b8beb06d-e594-44f0-9c42-c39dedd2284f"> 
 
-ii) A graph depicting the change in probability of extinction over 100 years based off of the number of calculated graphs that go extinct every year from graph (i): 
-
-<img width="268" alt="Extinction_Proability_Change_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/c050c6fa-7aa5-43a6-b840-d57b2c063339"> 
-
-iii) All the graphs from graph (i) put into a 10 by 10 grid, seperately, so that viewers can see each simulation in specific:
-
-<img width="268" alt="10_by_10_All_Plots_In_One_Grid" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/b8beb06d-e594-44f0-9c42-c39dedd2284f"> 
-
+i) 100 simulations depicting the potential change in population density over 100 years based off of the given populations information superimposed on top of one another, to give a general depiction of what the growth trend may be.
+ii) A graph depicting the change in probability of extinction over 100 years based off of the number of calculated graphs that go extinct every year from graph (i). 
+iii) All the graphs from graph (i) put into a 10 by 10 grid, seperately, so that viewers can see each simulation in specific.
 
 There are two main inputs required in order for this script to function properly: N0 and a formatted file one chooses from their file explorer: 
 The initial population (N0): 
