@@ -35,7 +35,7 @@ This produced Leslie Matrix is what is used to generate the simulations that pro
    -  n = size of the distribution
    -  min, max = specifies the interval in which you would like the distribution to be   
 
-Rules to follow for this to work if you customize the code: 
+**Rules to follow for this to work if you customize the code:** 
 1. Ensure that only one noiseMat component references a specific cell in your Leslie Matrix (more then one noiseMat component adjusting the same cell may cause an error)
 2. Ensure that the number of coloums in your Leslie matrix is the same number of values in your N0 vector
 3. If you change the number of coloums (aka age classes (x)) ensure to also adjust the second line in the R script so that it reads: N0 = matrix(N0, nrow = x,ncol=1)
