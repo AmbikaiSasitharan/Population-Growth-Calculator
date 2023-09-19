@@ -3,7 +3,11 @@
 
 The three graphs that will be produced will look like the following: 
 
-(i)<img width="230" alt="100_Growth_Simulation_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/1aae5d41-c453-4880-b716-0a372fe37826"> (ii)<img width="230" alt="Extinction_Proability_Change_Plot" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/c050c6fa-7aa5-43a6-b840-d57b2c063339"> (iii)<img width="230" alt="10_by_10_All_Plots_In_One_Grid" src="https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/assets/140208293/b8beb06d-e594-44f0-9c42-c39dedd2284f"> 
+(i)![Alt text](https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/blob/main/PopTRENDS_Images/100_Growth_Simulation_Plot.png?raw=true)
+
+(ii)![Alt text](https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/blob/main/PopTRENDS_Images/Extinction_Proability_Change_Plot.png?raw=true)
+
+(iii)![Alt text](https://github.com/AmbikaiSasitharan/Population-Growth-Calculator/blob/main/PopTRENDS_Images/10_by_10_All_Plots_In_One_Grid.png?raw=true)
 
 i) 100 simulations depicting the potential change in population density over 100 years based off of the given populations information superimposed on top of one another, to give a general depiction of what the growth trend may be.
 
