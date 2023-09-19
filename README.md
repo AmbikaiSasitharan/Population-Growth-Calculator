@@ -15,6 +15,7 @@ The three graphs that will be produced will look like the following:
 *(**Figure (i)** 100 simulations depicting the potential change in population density over 100 years based off of the given populations information superimposed on top of one another, to give a general depiction of what the growth trend may be; **Figure (ii)** A graph depicting the change in probability of extinction over 100 years based off of the number of calculated graphs that go extinct every year from graph (i); **Figrue (iii)** All the graphs from graph (i) put into a 10 by 10 grid, seperately, so that viewers can see each simulation in specific.)*
 
 There are two main inputs required in order for this script to function properly: N0 and a formatted file one chooses from their file explorer: 
+
 **The initial population (N0):** 
 This is a vector that stores the initial population density of each age group within the population. In the order of this vector the first number is the first age groups (the youngest) population density, the second number is the second age groups population density, and so forth. 
 
